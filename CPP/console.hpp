@@ -1,6 +1,6 @@
 /*
 //////////////////////////////////////////////
-// Created 	By: Danny Avramov               //
+// Created 	By: Danny Avramov           //
 // Description: Created for console use.    //
 //              Control sizing and enable   //
 //              disabling window functions. //
@@ -76,12 +76,12 @@ namespace con {
 	/*
 	//////////////////////////////////////////////////////////////////////////////////////
 	// Documentation:                                                                   //
-	// - Moves the placement of a character(s) or printed character(s)					//
-	//   to the coordinates assigned in the function's params.							//
-	// - Can use to move or print text anywhere on the screen.							//
-	// Example:																			//
-	// > placeCursor(25, 50);															//
-	// Description of Example:															//
+	// - Moves the placement of a character(s) or printed character(s)		    //
+	//   to the coordinates assigned in the function's params.			    //
+	// - Can use to move or print text anywhere on the screen.			    //
+	// Example:								 	    //
+	// > placeCursor(25, 50);					 		    //
+	// Description of Example:			 				    //
 	// - Moves the character new position 25 spaces to the left and 50 spaces downward. //
 	//////////////////////////////////////////////////////////////////////////////////////
 	*/
@@ -90,16 +90,16 @@ namespace con {
 	void setWindow(std::string title = "Untitled Window", unsigned short width = 32, unsigned short height = 32, bool bEnableExit = true, bool bEnableMaximize = true, bool bEnableMinimize = true, bool bEnableScrollbar = false, bool bEnableResizing = true, bool bEnableFullscreen = false);
 	/*
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////
-	// Documentation:																						  //
-	// - Uses all the console assigning functions to define the window with the characteristics				  //
-	//   of the user's input determine but the function's params.											  //
-	// - Can set title to window, change window size, toggle scrollbar,										  //
-	//   toggle full-screen and toggle window state buttons.												  //
-	// Example:																								  //
-	// > setWindow("My Title" 32, 64, false, true, true, true, true, false);								  //
-	// Description of Example:																				  //
-	// - Sets the title to "My Title", makes the window 32 spaces in width and 64 spaces in height,			  //
-	// - Disables close button, Enables the maximize buttons, Enables the minimize button,					  //
+	// Documentation:			 			 	                                  //
+	// - Uses all the console assigning functions to define the window with the characteristics	 	  //
+	//   of the user's input determine but the function's params.				 		  //
+	// - Can set title to window, change window size, toggle scrollbar,				  	  //
+	//   toggle full-screen and toggle window state buttons.				 	          //
+	// Example:									 	 	          //
+	// > setWindow("My Title" 32, 64, false, true, true, true, true, false); 		                  //
+	// Description of Example:				 		                                  //
+	// - Sets the title to "My Title", makes the window 32 spaces in width and 64 spaces in height,		  //
+	// - Disables close button, Enables the maximize buttons, Enables the minimize button,	 	          //
 	// - Enables the resizing ability, Toggles scroll bar to true & Toggles the full-screen ability to false. //
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	*/
@@ -108,13 +108,13 @@ namespace con {
 	void setWindowSize(const unsigned short WIDTH, const unsigned short HEIGHT);
 	/*
 	/////////////////////////////////////////////////////////////////////////////////////////
-	// Documentation:																	   //
-	// - Equivalent to typing "mode con:cols=<example>" and "mode con:lines=<example>"	   //
-	//   into command prompt. (cmd)														   //
+	// Documentation:	 						               //
+	// - Equivalent to typing "mode con:cols=<example>" and "mode con:lines=<example>"     //
+	//   into command prompt. (cmd)			 				       //
 	// - The params of the function define the window's width and height.                  //
-	// Example:																			   //
-	// > setWindowSize(100, 200);														   //
-	// Description of Example:															   //
+	// Example:			 						       //
+	// > setWindowSize(100, 200);			 				       //
+	// Description of Example:					 	               //
 	// - Assigns the width of the window to be 100 spaces and the height to be 200 spaces. //
 	/////////////////////////////////////////////////////////////////////////////////////////
 	*/
@@ -125,10 +125,10 @@ namespace con {
 	/////////////////////////////////////////////////////////////////////////
 	// Documentation:                                                      //
 	// - Equivalent to typing "color <example>" into command prompt. (cmd) //
-	// - Function is responsible for changing the foreground color		   //
-	//   (the character colors) of the console.							   //
-	// Example:															   //
-	// > setColor(Blue);												   //
+	// - Function is responsible for changing the foreground color	       //
+	//   (the character colors) of the console.			       //
+	// Example:				 			       //
+	// > setColor(Blue);						       //
 	/////////////////////////////////////////////////////////////////////////
 	*/
 
@@ -137,7 +137,7 @@ namespace con {
 		Black			= 0,
 		Dark_Blue		= 1,
 		Dark_Green		= 2,
-		Dark_Turquise	= 3,
+		Dark_Turquise	        = 3,
 		Dark_Red		= 4,
 		Dark_Purple		= 5,
 		Dark_Yellow		= 6,
@@ -146,22 +146,22 @@ namespace con {
 		Blue			= 9,
 		Green			= 10,
 		Turquise		= 11,
-		Red				= 12,
+		Red			= 12,
 		Purple			= 13,
 		Yellow			= 14,
 		White			= 15
 	};
 	/*
 	///////////////////////////////////////////////////////////////////////////////////
-	// Documentation:																 //
-	// - An enumeration of color-coded numbers to be used by						 //
+	// Documentation:		 						 //
+	// - An enumeration of color-coded numbers to be used by		         //
 	//   the two console color defining functions setConsoleColors() and setColor(), //
 	//   also can use the enum members as params for the functions listed above.	 //
-	// Example:																		 //
+	// Example:			 						 //
 	// > setColor(Color::Green);                                                     //
-	// Description of Example:														 //
-	// - The enum member which holds the color-code integer of green				 //
-	//   is being used to set the foreground of the console.						 //
+	// Description of Example:		 					 //
+	// - The enum member which holds the color-code integer of green	         //
+	//   is being used to set the foreground of the console.		         //
 	///////////////////////////////////////////////////////////////////////////////////
 	*/
 }
