@@ -54,7 +54,7 @@ void setTitle(const char *TITLE);
 */
 
 
-void WINAPI setConsoleColors(const unsigned short ATTRIBS);
+void __stdcall setConsoleColors(const unsigned short ATTRIBS);
 /*
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Documentation:										             //
