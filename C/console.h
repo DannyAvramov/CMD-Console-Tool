@@ -138,7 +138,7 @@ enum Color {
 	Black			= 0,
 	Dark_Blue		= 1,
 	Dark_Green		= 2,
-	Dark_Turquise	= 3,
+	Dark_Turquise	        = 3,
 	Dark_Red		= 4,
 	Dark_Purple		= 5,
 	Dark_Yellow		= 6,
@@ -147,7 +147,7 @@ enum Color {
 	Blue			= 9,
 	Green			= 10,
 	Turquise		= 11,
-	Red				= 12,
+	Red		        = 12,
 	Purple			= 13,
 	Yellow			= 14,
 	White			= 15
