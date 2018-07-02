@@ -35,7 +35,7 @@ void pause(void);
 void clear(void);
 /*
 /////////////////////////////////////////////////////////////
-// Documentation:										   //
+// Documentation:				           //
 // - Equivalent to typing "cls" into command prompt. (cmd) //
 // - Clears the console screen but issuing a new buffer.   //
 /////////////////////////////////////////////////////////////
@@ -160,9 +160,9 @@ enum Color {
 //   also can use the enum members as params for the functions listed above.	 //
 // Example:				 					 //
 // > setColor(Green);                                                            //
-// Description of Example:														 //
-// - The enum member which holds the color-code integer of green				 //
-//   is being used to set the foreground of the console.						 //
+// Description of Example:							 //
+// - The enum member which holds the color-code integer of green	         //
+//   is being used to set the foreground of the console.			 //
 ///////////////////////////////////////////////////////////////////////////////////
 */
 
