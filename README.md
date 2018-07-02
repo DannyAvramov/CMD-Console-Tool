@@ -1,7 +1,7 @@
 # CMD-Console-Tool
-A C/C++ file made for giving the Windows Command Prompt defined characteristics with ease.
+A C/C++ header file/source file with easy-to-use functions made to characterize the Command Prompt (console application) window in easy fashion!
 ### Updates
-- [ ] Added C Version
-- [ ] Added C++ Version
+- [x] Added C Version
+- [x] Added C++ Version
 - [ ] Added Some Screenshots
 - [ ] Polish Respitory
