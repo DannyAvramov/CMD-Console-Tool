@@ -6,8 +6,8 @@
 //              disabling window functions. //
 //////////////////////////////////////////////
 */
-#ifndef CONSOLE_H
-#define CONSOLE_H
+#ifndef CONSOLE_HPP
+#define CONSOLE_HPP
 #pragma comment(lib, "user32") // For Full-screen
 #ifndef _IOSTREAM_
 	#include <iostream>
@@ -166,4 +166,4 @@ namespace con {
 	*/
 }
 
-#endif // CONSOLE_H
+#endif // CONSOLE_HPP
