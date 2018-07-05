@@ -1,10 +1,10 @@
 /*
-//////////////////////////////////////////////
-// Created 	By: Danny Avramov	    //
-// Description: Created for console use.    //
-// 		Control sizing and enable   //
-//		disabling window functions. //
-//////////////////////////////////////////////
+////////////////////////////////////////////////////
+// Created  By: Danilo Avramovski (Danny Avramov) //
+// Description: Created for console use.          //
+//              Control sizing and enable         //
+//              disabling window functions.       //
+////////////////////////////////////////////////////
 */
 #ifndef CONSOLE_H
 #define CONSOLE_H
