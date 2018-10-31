@@ -1,4 +1,12 @@
-#include "console.hpp"
+/*
+////////////////////////////////////////////////////
+// Created By: Danilo Avramovski (Danny Avramov)  //
+// Description: Created for console use.          //
+//              Control sizing and enable         //
+//              disabling window functions.       //
+////////////////////////////////////////////////////
+*/
+#include "Avramov\console.hpp"
 
 namespace con {
 	void pause(void) {
@@ -71,7 +79,7 @@ namespace con {
 		return;
 	}
 	///
-	void setWindow(std::string title = "Untitled Window", unsigned short width = 32, unsigned short height = 32, bool bEnableExit = true, bool bEnableMaximize = true, bool bEnableMinimize = true, bool bEnableScrollbar = false, bool bEnableResizing = true, bool bEnableFullscreen = false) {
+	void setWindow(std::string title, unsigned short width, unsigned short height, bool bEnableExit, bool bEnableMaximize, bool bEnableMinimize, bool bEnableScrollbar, bool bEnableResizing, bool bEnableFullscreen) {
 		/// Console Title
 		TCHAR consoleTitle[256];
 		wsprintfA(consoleTitle, title.c_str());
@@ -116,8 +124,8 @@ namespace con {
 		}
 
 		COORD coordSize = {
-			width,
-			height
+			(SHORT)width,
+			(SHORT)height
 		};
 
 		if (!SetConsoleScreenBufferSize(outHandle, coordSize)) {
