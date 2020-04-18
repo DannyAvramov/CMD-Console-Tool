@@ -1,6 +1,6 @@
 /*
 ////////////////////////////////////////////////////
-// Created By: Danilo Avramovski (Danny Avramov)  //
+// Created By: Danny Avramov                      //
 // Description: Created for console use.          //
 //              Control sizing and enable         //
 //              disabling window functions.       //
