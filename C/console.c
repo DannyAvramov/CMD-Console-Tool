@@ -1,3 +1,11 @@
+/*
+////////////////////////////////////////////////////
+// Created By: Danny Avramov                      //
+// Description: Created for console use.          //
+//              Control sizing and enable         //
+//              disabling window functions.       //
+////////////////////////////////////////////////////
+*/
 #include "console.h"
 
 void pause(void) {
